@@ -1,0 +1,37 @@
+.breadcrumb {
+    list-style: none; /* Remove marcadores de lista */
+    display: flex; /* Organiza os itens em linha */
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .breadcrumb li {
+    margin-right: 8px; /* Espaço entre os itens */
+  }
+  
+  .breadcrumb li a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s ease-in-out; /* Efeito suave ao passar o mouse */
+  }
+  
+  .breadcrumb li a:hover {
+    color: #0056b3; /* Cor dos links ao passar o mouse */
+  }
+  
+  .breadcrumb li::after {
+    content: "›"; /* Símbolo para separar os itens */
+    margin-left: 8px;
+    color: #6c757d; /* Cor do separador */
+  }
+  
+  .breadcrumb li:last-child::after {
+    content: ""; /* Remove o separador do último item */
+  }
+  
+  .breadcrumb li.active {
+    color: #6c757d; /* Cor do item ativo (último item) */
+    font-weight: bold;
+    pointer-events: none; /* Desabilita o clique no item atual */
+  }

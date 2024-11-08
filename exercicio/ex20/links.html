@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a { 
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color:darkred ;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+            
+        }
+        a:active {color: yellow;}
+        .especial { background-color: green;}
+        .especial::before { content: '===';}
+        .especial::after { content: '===--;'}
+    </style>
+</head>
+<body>
+    <h1>personalizando Links
+    </h1>
+    <ul>
+        <li><a href="https://www.fatsecret.com.br/Default.aspx?pa=m">repust fit</a></li>
+        <li><a href="https://www.youtube.com/watch?v=9h-3jLqYe9E"class="especial">canal do youtube</a></li>
+        <li><a href="https://www.tuasaude.com/dieta-para-emagrecer/"class="especial">site</a></li>
+    </ul>
+    
+</body>
+</html>

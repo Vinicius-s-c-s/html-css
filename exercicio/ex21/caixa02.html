@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:rgb(128, 128, 128);
+        margin: 0px;
+       } 
+       nav {
+        background-color: rgb(17, 219, 95);
+        padding: 3px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+}
+        
+
+       nav > a {
+        text-decoration: none;
+        color: black;
+        margin-right: 30px;
+        font-weight: bold;
+
+       }
+       nav > a:hover {
+        text-decoration: none;
+       }
+       header {
+        background-color:white;
+        padding: 10px;
+        margin: 10px;
+       }
+       main {
+         
+        padding: 10px;
+        margin: 10px;
+        border-radius: 24px;
+        box-shadow: 4px 4px 9px 0px rgb(0, 0, 0);
+    
+       }
+
+       footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;}
+
+       footer > p { margin: 0px;
+
+       }
+       article {
+        background-color: rgb(233, 9, 9);
+        padding: 5px;
+       }
+       article  > aside {background-color:rgb(241, 9, 153);
+        
+       }
+
+       div#bola {
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+       }
+    </style>
+</head>
+<body>
+    <header>
+    
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> <p>achei aleluia</p>
+            
+        </section>
+       
+        <section id="noticias">
+            <article>
+                <p>aaaaa</p>
+                <h2>noticias do brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsam eligendi rem quisquam suscipit sint. Minus consequatur molestias harum, expedita cum sit officia nemo ducimus ea quisquam voluptatibus numquam iusto.</p>
+                <aside>
+                    <p>artigo de joao</p>
+                </aside>
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>fim da pag</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
