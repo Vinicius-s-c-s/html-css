@@ -4,12 +4,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: 600px;
+  width: 500px;
+  border-collapse: collapse;
+  text-align: center;
+}
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+th , .toda {
+  background-color: gray;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+  </style>
 </head>
 <body>
   <table>
     <thead>
-      
+      <th colspan="2" rowspan="2" scope="rowgroup">Areia</th>
+      <th colspan="2" rowspan="2" scope="col">Diciplinas</th>
+      <th colspan="2" scope="colgroup">Notas</th>
+      <th rowspan="2" scope="col">Media</th>
+      <tr>
+        <th scope="col">Nota 1</th>
+        <th scope="col">Nota 2</th>
+      </tr>
     </thead>
+    <tbody>
+      <tr>
+        <th colspan="2" rowspan="4" scope="rowgroup">Exatas</th>
+        <td colspan="2"scope="rowgroup">Matematica</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        
+      </tr>
+      <tr>
+        <td colspan="2">Fisica</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td colspan="2">Quiminca</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td colspan="2">Biolofia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <th colspan="6" scope="row">Medias de exatas</th>
+        <td class="toda">0.0</td>
+        
+      </tr>
+      <tr>
+        <th colspan="2" rowspan="2" scope="rowgroup">Humanas</th>
+        <td colspan="2">Historia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        
+      </tr>
+      <tr>
+        <td colspan="2">Geografia</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <th colspan="6" scope="row">Media de Humanas</th>
+        <td class="toda">0.0</td>
+        
+      </tr>
+     
+
   </table>
   
 </body>
